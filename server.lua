@@ -9,7 +9,7 @@ RegisterNetEvent("bdrv:ChargePlayerMoney", function ()
     local src = source
 
     if Config.ChargePlayer then
-        Player.Functions.RemoveMoney(bank, Config.Price, 'Registration at DMV')
+        Player.Functions.RemoveMoney(bank, Config.Price, 'Registreret hos motorkontoret')
     end
 end)
 
